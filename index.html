@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S.L.T DvS — A ORDEM</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 15px;
+  background:
+    radial-gradient(ellipse, #65000c 0%, #220006 40%, #080808 75%);
+  border-bottom: 2px solid #c40018;
+}
+
+header p {
+  color: #bbb;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(48px, 12vw, 100px);
+  margin: 10px 0;
+  text-shadow: 0 0 25px #a00015;
+}
+
+h1 span {
+  color: #e00020;
+}
+
+header h2 {
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #e00020;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #101010;
+  border-bottom: 1px solid #50000a;
+  padding: 12px 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 9px 10px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #ff1738;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  padding: 50px 0;
+  border-bottom: 1px solid #292020;
+  scroll-margin-top: 65px;
+}
+
+section h2 {
+  color: #e00020;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+section p {
+  line-height: 1.8;
+  color: #ccc;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  padding: 22px;
+  background: #141414;
+  border: 1px solid #4a1018;
+  border-top: 3px solid #d0001c;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin-top: 15px;
+  background: #c9001c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background: #f00025;
+}
+
+li {
+  margin: 12px 0;
+  color: #ccc;
+}
+
+footer {
+  padding: 30px 15px;
+  text-align: center;
+  background: #030303;
+  color: #999;
+}
+
+footer strong {
+  color: #e00020;
+}
+</style>
+</head>
+
+<body>
+
+<header id="inicio">
+  <p>Disciplina • Lealdade • União</p>
+  <h1>S.L.T <span>DvS</span></h1>
+  <h2>A ORDEM</h2>
+  <p>Nosso nome. Nossa história. Nossa união.</p>
+  <a class="btn" href="#sobre">Conhecer a ordem</a>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#sobre">Sobre nós</a>
+  <a href="#fundadores">Fundadores</a>
+  <a href="#aliados">Aliados</a>
+  <a href="#regras">Regras</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<main>
+
+<section id="sobre">
+  <h2>Sobre nós</h2>
+  <p>
+    A S.L.T DvS — A ORDEM é um grupo criado com
+    identidade própria, união e respeito.
+    Mais do que um nome, somos uma equipe com
+    história, personalidade e objetivos em comum.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>União</h3>
+      <p>Juntos, fortalecemos nossa caminhada.</p>
+    </div>
+
+    <div class="card">
+      <h3>Lealdade</h3>
+      <p>Atitudes valem mais que promessas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Respeito</h3>
+      <p>Respeito dentro e fora do grupo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fundadores">
+  <h2>Fundadores</h2>
+  <p>Quem fez parte da criação da nossa ordem.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Noele</h3>
+      <p>Fundadora</p>
+    </div>
+
+    <div class="card">
+      <h3>Punisher</h3>
+      <p>Fundador</p>
+    </div>
+
+    <div class="card">
+      <h3>Tio Bene</h3>
+      <p>Fundador</p>
+    </div>
+
+    <div class="card">
+      <h3>Izis</h3>
+      <p>Fundadora</p>
+    </div>
+  </div>
+</section>
+
+<section id="aliados">
+  <h2>Nossos aliados</h2>
+  <p>
+    Espaço reservado para os aliados oficiais
+    da S.L.T DvS.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Aliado 01</h3>
+      <p>Adicione o nome aqui</p>
+    </div>
+
+    <div class="card">
+      <h3>Aliado 02</h3>
+      <p>Adicione o nome aqui</p>
+    </div>
+
+    <div class="card">
+      <h3>Aliado 03</h3>
+      <p>Adicione o nome aqui</p>
+    </div>
+  </div>
+</section>
+
+<section id="regras">
+  <h2>Regras da ordem</h2>
+
+  <ul>
+    <li>Respeitar todos os integrantes.</li>
+    <li>Manter a lealdade e a honestidade.</li>
+    <li>Não divulgar conversas privadas sem autorização.</li>
+    <li>Resolver conflitos com diálogo.</li>
+    <li>Não utilizar o nome do grupo para prejudicar pessoas.</li>
+    <li>Preservar a união e a identidade do grupo.</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Entre em contato</h2>
+  <p>
+    Quer conhecer melhor a S.L.T DvS?
+    Entre em contato com os fundadores.
+  </p>
+
+  <!-- Troque o link abaixo pelo convite real do grupo -->
+  <a class="btn"
+     href="https://chat.whatsapp.com/"
+     target="_blank"
+     rel="noopener noreferrer">
+    Entrar no WhatsApp
+  </a>
+
+  <p>
+    Edite o link acima e coloque o convite verdadeiro
+    do grupo para o botão funcionar corretamente.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <strong>S.L.T DvS — A ORDEM</strong>
+  <p>União • Lealdade • Respeito</p>
+  <p>© S.L.T DvS</p>
+</footer>
+
+</body>
+</html>
